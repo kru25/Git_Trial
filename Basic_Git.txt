@@ -13,5 +13,20 @@ adding existing project to a repository
 
 
 To add any file from local system to github repository:
-First create a repository 
+First create a new repository(new_repo) online on github.com
+
+Go to the folder in which you have the file you want to add on repository in command line.
+
+Initialize the local repository:- git init
+
+Add it to the web repository using git remote add origin git@github.com:kru25/Git_Trial.git
+
+Add the file to the repository using :- git add filename
+
+Commit the changes:- git commit -m "Commit_Name"
+
+Push the file using:- git push origin main/master
+
+
+
 
