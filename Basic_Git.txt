@@ -1,0 +1,17 @@
+check for github account:-ssh -T git@github.com
+to set SSH key:- ssh-keygen -t ed25519 -C "krutika.talegaonkar@gmail.com"(do not give names for ssh key file)
+To check git version:-git --version
+mkdir-create new folder for project
+touch index.php-create a new file(works in gitbash only)
+git config-Configure git
+git init-Initialize git repository
+Configure git account:-git config --global user.name "Firstname Lastname"(username)
+git config --global user.email username@email.com
+
+"https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line"
+adding existing project to a repository
+
+
+To add any file from local system to github repository:
+First create a repository 
+
